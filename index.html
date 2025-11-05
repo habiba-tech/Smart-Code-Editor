@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Instant Code Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1> Instant Code Editor</h1>
+  <div class="container">
+    <div class="editor">
+      <div class="panel">
+        <h3>HTML</h3>
+        <textarea id="html-code" placeholder="Write HTML here..."></textarea>
+      </div>
+      <div class="panel">
+        <h3>CSS</h3>
+        <textarea id="css-code" placeholder="Write CSS here..."></textarea>
+      </div>
+      <div class="panel">
+        <h3>JavaScript</h3>
+        <textarea id="js-code" placeholder="Write JS here..."></textarea>
+      </div>
+    </div>
+    <div class="output">
+      <iframe id="output"></iframe>
+    </div>
+  </div>
+
+  <button id="run-btn"> Run Code</button>
+  <button id="clear-btn"> Clear</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
